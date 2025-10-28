@@ -1,6 +1,9 @@
 # Catálogo de Jogos em Vite/React
 
-> Participantes: **Renato de Souza Nandes - 202476043** / **Bernardo Grijó Fontes - 202476004** / **Lucas Gonçalves Dahbar - 202476028**
+> Participantes: 
+> - **Renato de Souza Nandes - 202476043** 
+> - **Bernardo Grijó Fontes - 202476004**  
+> - **Lucas Gonçalves Dahbar - 202476028**
 
 ---
 
