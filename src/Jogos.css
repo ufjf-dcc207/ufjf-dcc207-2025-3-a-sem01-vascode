@@ -1,0 +1,119 @@
+body {
+  background-color: #0f0f0f;
+  font-family: 'Poppins', sans-serif;
+  color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.jogos {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  padding: 24px;
+  margin: 30px auto;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.jogos:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0 25px rgba(255, 215, 0, 0.25);
+}
+
+.Titulo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 16px;
+  letter-spacing: 0.6px;
+}
+
+.Imagem {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.Imagem img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 2px solid #333;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease;
+}
+
+.Imagem img:hover {
+  transform: scale(1.03);
+}
+
+/* Características do jogo */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.info-item {
+  background-color: #222;
+  border: 1px solid #333;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 80%;
+  max-width: 500px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #e0e0e0;
+}
+
+.info-item span:first-child {
+  font-weight: 600;
+  color: #ffd700;
+}
+
+.Nota {
+  color: #00ff88;
+  font-weight: 600;
+}
+
+.Descricao {
+  background-color: #242424;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-top: 18px;
+  color: #d9d9d9;
+  line-height: 1.6;
+  font-size: 15px;
+  text-align: justify;
+  border: 1px solid #333;
+}
+
+@media (max-width: 600px) {
+  .jogos {
+    max-width: 90%;
+    padding: 18px;
+  }
+
+  .Titulo {
+    font-size: 22px;
+  }
+
+  .Imagem img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .info-item {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .Descricao {
+    font-size: 14px;
+  }
+}
