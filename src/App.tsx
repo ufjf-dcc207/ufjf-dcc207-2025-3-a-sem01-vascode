@@ -1,7 +1,7 @@
 import "./App.css";
 import Jogos from "./Jogos";
 import clashroyale from "./assets/clash-royale.jpg";
-import { Descricoes } from "./Descricoes";
+import descricoes from "./data/descricoes";
 
 function App() {
   const jogo01 = [
@@ -11,7 +11,7 @@ function App() {
         plataforma="Mobile"
         desenvolvedora="Supercell"
         nota={9.4}
-        descricao = {Descricoes.clashRoyale}/>
+        descricao = {descricoes.clashRoyale}/>
   ];
   const jogo02 = [
         <Jogos
