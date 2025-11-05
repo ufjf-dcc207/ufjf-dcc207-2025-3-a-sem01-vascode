@@ -1,6 +1,6 @@
 const descricoes = {
     clashRoyale:
-        "Clash Royale é um jogo de estratégia em tempo real para celulares que combina elementos de jogos de cartas colecionáveis, defesa de torre e arena de batalha. Os jogadores montam um baralho de oito cartas para destruir as torres do oponente, usando um recurso chamado elixir para invocar tropas e magias. O jogo também inclui um sistema de clãs, onde jogadores podem se unir, conversar e batalhar juntos.",
+        "Misturando elementos de cartas colecionáveis e estratégia em tempo real, Clash Royale coloca dois jogadores em arenas onde o objetivo é destruir as torres inimigas. Cada carta representa tropas, feitiços ou construções com funções únicas. Com partidas curtas e intensas, o jogo exige pensamento rápido, gerenciamento de elixir e conhecimento do meta. Atualizações frequentes e torneios mantêm o jogo sempre vivo, competitivo e viciante.",
 
     starcraftII:
         "Um dos maiores ícones dos eSports, StarCraft II é um RTS que desafia a mente e os reflexos. Controle Terranos, Protoss ou Zergs em uma guerra intergaláctica onde cada fração tem mecânicas e estratégias próprias. A campanha é cinematográfica e cheia de escolhas, enquanto o modo multiplayer oferece um dos ambientes competitivos mais equilibrados já feitos. Seu legado definiu o gênero e inspirou gerações de jogadores profissionais.",

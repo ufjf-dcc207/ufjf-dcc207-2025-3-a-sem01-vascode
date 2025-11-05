@@ -6,6 +6,7 @@ import descricoes from "./data/descricoes";
 function App() {
   const jogo01 = [
     <Jogos titulo="Clash Royale"
+        ano={2016}
         imagem={clashroyale}
         estilo="Estratégia"
         plataforma="Mobile"
