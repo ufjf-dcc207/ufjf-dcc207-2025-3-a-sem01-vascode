@@ -49,7 +49,6 @@ body {
   transform: scale(1.03);
 }
 
-/* Características do jogo */
 .info-container {
   display: flex;
   flex-direction: column;
