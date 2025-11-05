@@ -1,5 +1,5 @@
 import './Jogos.css';
-import imagemPadrao from './assets/imagempadrao.jpg';
+import imagemPadrao from './assets/imagem-padrao.jpg';
 
 type JogosProps = {
   titulo: string;

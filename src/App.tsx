@@ -1,6 +1,6 @@
 import "./App.css";
 import Jogos from "./Jogos";
-import clashroyale from "./assets/clashroyale.jpg";
+import clashroyale from "./assets/clash-royale.jpg";
 import { Descricoes } from "./Descricoes";
 
 function App() {

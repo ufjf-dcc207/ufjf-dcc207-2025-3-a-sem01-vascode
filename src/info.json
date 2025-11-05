@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "titulo": "Clash Royale",
+        "ano": 2016,
+        "imagem": "clash-royale.jpg",
+        "estilo": "Estratégia em Tempo Real",
+        "plataforma": "iOS/Android",
+        "desenvolvedora": "Supercell",
+        "nota": 9.0,
+        "descricaoKey": "clashRoyale"
+    },
+    {
+        "id": 2,
+        "titulo": "StarCraft II",
+        "ano": 2010,
+        "imagem": "starcraft-2.jpg",
+        "estilo": "Estratégia em Tempo Real",
+        "plataforma": "PC",
+        "desenvolvedora": "Blizzard Entertainment",
+        "nota": 9.3,
+        "descricaoKey": "starcraftII"
+    },
+    {
+        "id": 3,
+        "titulo": "Age of Empires II: The Age of Kings",
+        "ano": 1999,
+        "imagem": "age-of-empires-2.jpg",
+        "estilo": "Estratégia em Tempo Real",
+        "plataforma": "PC",
+        "desenvolvedora": "Ensemble Studios",
+        "nota": 9.2,
+        "descricaoKey": "ageOfEmpiresII"
+    },
+    {
+        "id": 4,
+        "titulo": "The Witcher 3: Wild Hunt",
+        "ano": 2015,
+        "imagem": "witcher-3.jpg",
+        "estilo": "RPG de Ação",
+        "plataforma": "PC/PS4/Xbox One",
+        "desenvolvedora": "CD Projekt Red",
+        "nota": 9.8,
+        "descricaoKey": "witcher3"
+    },
+    {
+        "id": 5,
+        "titulo": "Dark Souls III",
+        "ano": 2016,
+        "imagem": "dark-souls-3.jpg",
+        "estilo": "RPG de Ação",
+        "plataforma": "PC/PS4/Xbox One",
+        "desenvolvedora": "FromSoftware",
+        "nota": 9.5,
+        "descricaoKey": "darkSouls3"
+    },
+    {
+        "id": 6,
+        "titulo": "The Elder Scrolls V: Skyrim",
+        "ano": 2011,
+        "imagem": "skyrim.jpg",
+        "estilo": "RPG de Ação",
+        "plataforma": "PC/PS3/Xbox 360",
+        "desenvolvedora": "Bethesda Game Studios",
+        "nota": 9.7,
+        "descricaoKey": "skyrim"
+    },
+    {
+        "id": 7,
+        "titulo": "Resident Evil 4 Remake",
+        "ano": 2023,
+        "imagem": "resident-evil-4-remake.jpg",
+        "estilo": "Survival Horror",
+        "plataforma": "PC/PS4/PS5/Xbox One/Xbox Series X",
+        "desenvolvedora": "Capcom",
+        "nota": 9.4,
+        "descricaoKey": "residentEvil4Remake"
+    },
+    {
+        "id": 8,
+        "titulo": "Silent Hill 2 Remake",
+        "ano": 2024,
+        "imagem": "silent-hill-2-remake.jpg",
+        "estilo": "Terror Psicológico",
+        "plataforma": "PC/PS5/Xbox Series X",
+        "desenvolvedora": "Bloober Team/Konami",
+        "nota": 9.6,
+        "descricaoKey": "silentHill2Remake"
+    },
+    {
+        "id": 9,
+        "titulo": "Alan Wake 2",
+        "ano": 2023,
+        "imagem": "alan-wake-2.jpg",
+        "estilo": "Terror Psicológico",
+        "plataforma": "PC/PS5/Xbox Series X",
+        "desenvolvedora": "Remedy Entertainment",
+        "nota": 9.2,
+        "descricaoKey": "alanWake2"
+    },
+    {
+        "id": 10,
+        "titulo": "Call of Duty: Black Ops II",
+        "ano": 2012,
+        "imagem": "call-of-duty-black-ops-2.jpg",
+        "estilo": "FPS",
+        "plataforma": "PC/PS3/Xbox 360",
+        "desenvolvedora": "Treyarch/Activision",
+        "nota": 9.1,
+        "descricaoKey": "callOfDutyBlackOps2"
+    },
+    {
+        "id": 11,
+        "titulo": "Valorant",
+        "ano": 2020,
+        "imagem": "valorant.jpg",
+        "estilo": "FPS Tático",
+        "plataforma": "PC",
+        "desenvolvedora": "Riot Games",
+        "nota": 8.8,
+        "descricaoKey": "valorant"
+    },
+    {
+        "id": 12,
+        "titulo": "Counter-Strike 2",
+        "ano": 2023,
+        "imagem": "counter-strike-2.jpg",
+        "estilo": "FPS Tático",
+        "plataforma": "PC",
+        "desenvolvedora": "Valve",
+        "nota": 9.0,
+        "descricaoKey": "counterStrike2"
+    }
+]
