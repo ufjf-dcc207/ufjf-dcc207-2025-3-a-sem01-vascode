@@ -5,7 +5,7 @@ type JogosProps = {
   id: number;
   titulo: string;
   ano: string | number;
-  imagem: any;
+  imagem: string;
   estilo: string;
   plataforma: string;
   desenvolvedora: string;
