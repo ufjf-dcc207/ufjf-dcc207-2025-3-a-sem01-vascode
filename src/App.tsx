@@ -6,7 +6,7 @@ function App() {
   const jogo01 = [
     <Jogos titulo="Clash Royale"
         ano={2016}
-        imagem={undefined}
+        imagem="/assets/clash-royale.jpg"
         estilo="Estratégia"
         plataforma="Mobile"
         desenvolvedora="Supercell"
