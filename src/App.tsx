@@ -19,7 +19,7 @@ function App() {
             plataforma={jogo.plataforma}
             desenvolvedora={jogo.desenvolvedora}
             nota={jogo.nota}
-            descricao={descricoes[jogo.descricaoKey]}
+            descricao={descricoes[jogo.descricaoKey as keyof typeof descricoes]}
           />
         ))}
       </div>

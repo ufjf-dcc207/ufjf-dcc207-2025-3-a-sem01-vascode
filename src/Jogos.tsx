@@ -2,13 +2,13 @@ import './Jogos.css';
 
 type JogosProps = {
   id: number;
-  titulo: string;
-  ano: string | number;
-  imagem: string;
-  estilo: string;
-  plataforma: string;
-  desenvolvedora: string;
-  nota: number;
+  titulo?: string;
+  ano?: string | number;
+  imagem?: string;
+  estilo?: string;
+  plataforma?: string;
+  desenvolvedora?: string;
+  nota?: number;
   descricao: string;
 }
 
