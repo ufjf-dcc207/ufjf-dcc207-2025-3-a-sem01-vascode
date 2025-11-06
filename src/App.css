@@ -22,39 +22,9 @@ h1 {
 h1::after {
   content: "";
   display: block;
-  width: 80px;
+  width: 160px;
   height: 3px;
   background: #ffd700;
   margin: 10px auto 30px;
   border-radius: 2px;
-}
-
-footer {
-  margin-top: 40px;
-  text-align: center;
-  color: #aaa;
-  font-size: 14px;
-  padding: 10px 0;
-  width: 100%;
-  border-top: 1px solid #222;
-  background-color: #141414;
-}
-
-footer p {
-  margin: 5px 0;
-}
-
-@media (max-width: 600px) {
-  h1 {
-    font-size: 28px;
-    margin-top: 30px;
-  }
-
-  h1::after {
-    width: 60px;
-  }
-
-  footer {
-    font-size: 13px;
-  }
 }

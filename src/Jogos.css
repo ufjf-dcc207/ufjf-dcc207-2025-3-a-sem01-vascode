@@ -11,6 +11,7 @@ body {
   border-radius: 12px;
   padding: 24px;
   margin: 30px auto;
+  min-width: 700px;
   max-width: 700px;
   text-align: center;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -99,29 +100,4 @@ body {
   font-size: 15px;
   text-align: justify;
   border: 1px solid #333;
-}
-
-@media (max-width: 600px) {
-  .jogos {
-    max-width: 90%;
-    padding: 18px;
-  }
-
-  .Titulo {
-    font-size: 22px;
-  }
-
-  .Imagem img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .info-item {
-    width: 100%;
-    font-size: 14px;
-  }
-
-  .Descricao {
-    font-size: 14px;
-  }
 }
