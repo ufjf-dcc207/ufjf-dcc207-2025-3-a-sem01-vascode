@@ -1,34 +1,26 @@
 import "./App.css";
 import Jogos from "./Jogos";
 import descricoes from "./data/descricoes";
+import info from './data/info.json';
 
 function App() {
-  const jogo01 = [
-    <Jogos titulo="Clash Royale"
-        ano={2016}
-        imagem="/assets/clash-royale.jpg"
-        estilo="Estratégia"
-        plataforma="Mobile"
-        desenvolvedora="Supercell"
-        nota={9.4}
-        descricao = {descricoes.clashRoyale}/>
-  ];
-  const jogo02 = [
-        <Jogos
-        titulo={undefined}
-        imagem={undefined}
-        estilo={undefined}
-        plataforma={undefined}
-        desenvolvedora={undefined}
-        nota={0}
-        descricao={undefined}
-      />
-  ];
   return (
-    <div>
+   <div>
       <h1>Jogos</h1>
-      <div>{jogo01}</div>
-      <div>{jogo02}</div>      
+      {info.map((jogo) => (
+        <Jogos
+          key={jogo.id}
+          id={jogo.id}
+          titulo={jogo.titulo}
+          ano={jogo.ano}
+          imagem={jogo.imagem}
+          estilo={jogo.estilo}
+          plataforma={jogo.plataforma}
+          desenvolvedora={jogo.desenvolvedora}
+          nota={jogo.nota}
+          descricao={descricoes[jogo.descricaoKey]}
+        />
+      ))}
     </div>
   );
 }
