@@ -6,21 +6,23 @@ import info from './data/info.json';
 function App() {
   return (
    <div>
-      <h1>Jogos</h1>
-      {info.map((jogo) => (
-        <Jogos
-          key={jogo.id}
-          id={jogo.id}
-          titulo={jogo.titulo}
-          ano={jogo.ano}
-          imagem={jogo.imagem}
-          estilo={jogo.estilo}
-          plataforma={jogo.plataforma}
-          desenvolvedora={jogo.desenvolvedora}
-          nota={jogo.nota}
-          descricao={descricoes[jogo.descricaoKey]}
-        />
-      ))}
+      <h1>Catálogo de Jogos</h1>
+      <div className="grade-jogos">
+        {info.map((jogo) => (
+          <Jogos
+            key={jogo.id}
+            id={jogo.id}
+            titulo={jogo.titulo}
+            ano={jogo.ano}
+            imagem={jogo.imagem}
+            estilo={jogo.estilo}
+            plataforma={jogo.plataforma}
+            desenvolvedora={jogo.desenvolvedora}
+            nota={jogo.nota}
+            descricao={descricoes[jogo.descricaoKey]}
+          />
+        ))}
+      </div>
     </div>
   );
 }

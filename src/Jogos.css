@@ -72,6 +72,13 @@ body {
   color: #e0e0e0;
 }
 
+.grade-jogos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
 .info-item span:first-child {
   font-weight: 600;
   color: #ffd700;

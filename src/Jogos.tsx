@@ -1,6 +1,5 @@
 import './Jogos.css';
 
-
 type JogosProps = {
   id: number;
   titulo: string;

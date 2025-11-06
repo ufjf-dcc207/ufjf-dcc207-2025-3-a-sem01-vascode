@@ -71,7 +71,7 @@
         "ano": 2023,
         "imagem": "/assets/resident-evil-4-remake.jpg",
         "estilo": "Survival Horror",
-        "plataforma": "PC/PS4/PS5/Xbox One/Xbox Series X",
+        "plataforma": "PC/PS4/PS5/Xbox Series X",
         "desenvolvedora": "Capcom",
         "nota": 9.4,
         "descricaoKey": "residentEvil4Remake"
@@ -130,8 +130,5 @@
         "desenvolvedora": "Valve",
         "nota": 9.0,
         "descricaoKey": "counterStrike2"
-    },
-    {
-        "id": 13
     }
 ]
