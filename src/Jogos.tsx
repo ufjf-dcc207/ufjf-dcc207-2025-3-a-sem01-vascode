@@ -15,7 +15,7 @@ type JogosProps = {
 export default function Jogos ({
   titulo = 'Título não disponível',
   ano = 'Ano não disponível',
-  imagem = '/assets/imagem-padrao.jpg',
+  imagem = 'assets/imagem-padrao.jpg',
   estilo = 'Informação não disponível',
   plataforma = 'Informação não disponível',
   desenvolvedora = 'Informação não disponível',
