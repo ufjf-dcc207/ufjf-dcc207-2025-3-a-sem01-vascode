@@ -28,6 +28,7 @@ body {
   color: #ffd700;
   margin-bottom: 16px;
   letter-spacing: 0.6px;
+  text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
 }
 
 .Imagem {
@@ -39,14 +40,15 @@ body {
 .Imagem img {
   width: 100%;
   max-width: 400px;
-  border-radius: 10px;
+  border-radius: 12px;
   border: 2px solid #333;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease;
 }
 
 .Imagem img:hover {
-  transform: scale(1.03);
+  transform: scale(1.03) rotate(0.5deg);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.3);
 }
 
 .info-container {

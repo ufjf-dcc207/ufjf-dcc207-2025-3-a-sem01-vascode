@@ -2,6 +2,7 @@ import './Jogos.css';
 import imagemPadrao from './assets/imagem-padrao.jpg';
 
 type JogosProps = {
+  id: number;
   titulo: string;
   ano: string | number;
   imagem: any;
@@ -25,12 +26,31 @@ export default function Jogos ({
   return (
     <div className='jogos'>
       <div className='Titulo'>{titulo}</div>
-      <div className='Ano'>{ano}</div>
       <div className='Imagem'><img src={imagem} alt={titulo} style={{ maxWidth: '300px' }}/></div>
-      <div className='Estilo'>{estilo}</div>
-      <div className='Plataforma'>{plataforma}</div>
-      <div className='Desenvolvedora'>{desenvolvedora}</div>
-      {nota > 0 ? (<div className='Nota'>{nota}</div>) : (<div className='Nota'>—</div>)}
+       <div className='info-container'>
+        <div className='info-item'>
+          <span>Ano:</span>
+          <span>{ano}</span>
+        </div>
+        <div className='info-item'>
+          <span>Estilo:</span>
+          <span>{estilo}</span>
+        </div>
+        <div className='info-item'>
+          <span>Plataforma:</span>
+          <span>{plataforma}</span>
+        </div>
+        <div className='info-item'>
+          <span>Desenvolvedora:</span>
+          <span>{desenvolvedora}</span>
+        </div>
+        <div className='info-item'>
+          <span>Nota:</span>
+          <span className='Nota'>
+            {nota > 0 ? `${nota}/10` : '—'}
+          </span>
+        </div>
+      </div>
       <div className='Descricao'>{descricao}</div>
     </div>
   )

@@ -32,7 +32,7 @@ const descricoes = {
     valorant:
         "Combine mira precisa com poderes únicos em um FPS competitivo que exige raciocínio rápido e coordenação entre equipes. Cada agente possui habilidades distintas, e dominar o equilíbrio entre tiro e estratégia é essencial. Com atualizações constantes e um cenário de eSports vibrante, Valorant se firmou como um dos principais jogos competitivos da atualidade.",
 
-    counterStrike:
+    counterStrike2:
         "A evolução do lendário CS:GO chega com o poder da engine Source 2, trazendo gráficos realistas, física aprimorada e servidores mais estáveis. O jogo mantém sua essência: dois times, objetivos claros e pura habilidade. A precisão, o trabalho em equipe e o tempo de reação continuam sendo as chaves da vitória nesse ícone eterno do FPS.",
 
 };
