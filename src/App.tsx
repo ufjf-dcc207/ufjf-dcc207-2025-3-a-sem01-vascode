@@ -1,13 +1,12 @@
 import "./App.css";
 import Jogos from "./Jogos";
-import clashroyale from "./assets/clash-royale.jpg";
 import descricoes from "./data/descricoes";
 
 function App() {
   const jogo01 = [
     <Jogos titulo="Clash Royale"
         ano={2016}
-        imagem={clashroyale}
+        imagem={undefined}
         estilo="Estratégia"
         plataforma="Mobile"
         desenvolvedora="Supercell"

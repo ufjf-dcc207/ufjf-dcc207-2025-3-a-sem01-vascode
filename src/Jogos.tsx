@@ -1,5 +1,5 @@
 import './Jogos.css';
-import imagemPadrao from './assets/imagem-padrao.jpg';
+
 
 type JogosProps = {
   id: number;
@@ -16,7 +16,7 @@ type JogosProps = {
 export default function Jogos ({
   titulo = 'Título não disponível',
   ano = 'Ano não disponível',
-  imagem = imagemPadrao,
+  imagem = undefined,
   estilo = 'Informação não disponível',
   plataforma = 'Informação não disponível',
   desenvolvedora = 'Informação não disponível',
